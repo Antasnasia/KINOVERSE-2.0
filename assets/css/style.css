@@ -1,0 +1,42 @@
+.header a, .header a:hover {
+color: #c0da31;
+text-decoration: none;
+}
+.header h1 {
+	letter-spacing: 15px;
+	font-size: 300%;
+}
+.header p {
+	color: #12310e !important;
+	font-size: 90%;
+	letter-spacing: 3px;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+	color: #fff;
+	background-color: #478a7e;
+}
+.nav-pills>li>a {
+	color: #fff;
+}
+.nav-pills>li>a:hover {
+	background-color: #478a7e;
+}
+.navbar-inverse {
+	padding: 1%;
+	background-color: #1625dc;
+}
+@media (max-width:  767px) {
+	.nav-pills>li {
+		float: none;
+	}
+	.nav-pills {
+		text-align: center;
+	}
+	.header h1 {
+		letter-spacing: 5px;
+		font-size: 280%;
+	}
+	.header {
+		text-align: center;
+	}
+}
