@@ -18,6 +18,7 @@
     <![endif]-->
   </head>
   <body>
+    <!-- header -->
     <div class="container-fluid">
       <div class="row">
           <nav role="navigation" class="navbar navbar-inverse">
@@ -51,8 +52,158 @@
           </nav>
       </div>
     </div>
- 
+    <!-- page content -->
+ <div class="wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-9 col-sm-push-3"> <!-- right block -->
+           <h2>Смотреть фильмы</h2>
+           <hr>
+           <div class="row">
+             <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <img src="assets/img/deadpool_1.jpg" alt="Deadpool"  width="160" height="220">
+                <div class="film_label">Дэдпул</div>
+             </div>
+             <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <img src="assets/img/kianu_2.jpg" alt="Keanu" width="160" height="220">
+                <div class="film_label">Киану</div>
+             </div>
+             <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <img src="assets/img/manofsteel.jpeg" alt="Man of steel" width="160" height="220">
+                <div class="film_label">Человек из стали</div>
+             </div>
+             <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <img src="assets/img/marsian.jpeg" alt="The martian" width="160" height="220">
+                <div class="film_label">Марсианин</div>
+             </div>
+           </div>
+           <div class="margin-8"></div>
+            <h2>Смотреть сериалы</h2>
+           <hr>
+           <div class="row">
+             <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <img src="assets/img/loki.jpg" alt="Loki"  width="160" height="220">
+                <div class="film_label">Локи</div>
+             </div>
+             <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <img src="assets/img/doctorwho.jpg" alt="Doctor who" width="160" height="220">
+                <div class="film_label">Доктор Кто</div>
+             </div>
+             <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <img src="assets/img/smallville.jpg" alt="Smallville" width="160" height="220">
+                <div class="film_label">Тайны Смолвиля</div>
+             </div>
+             <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <img src="assets/img/squidgame.jpg" alt="Игра в кальмара" width="160" height="220">
+                <div class="film_label">Игра в кальмара</div>
+             </div>
+           </div>
+           <div class="margin-8"></div>
+            <a href="#"><h3>Глава студии Marvel объяснил массовое изменение прокатных графиков</h3></a>
+            <hr class="news_line">
+            <p>
+            Глава студии Marvel Кевин Файги объяснил масштабные перестановки в прокатных графиках экранизаций комиксов, которые войдут в новую фазу развития киновселенной. По его словам, такое решение было принято в связи с постоянными задержками в производстве тех или иных кинопроектов, вероятнее всего, вызванных динамикой распространения коронавирусной инфекции.</p>
+            <a href="https://www.kinonews.ru/news_103107/" class="btn btn-success pull-right">Читать подробнее</a>
+            <div class="margin-8"></div>
+            <a href="#"><h3>Супермен перестанет сражаться за американские ценности</h3></a>
+            <hr class="news_line">
+            <p>Компания DC Comics решила изменить основной девиз своего ключевого персонажа - Супермена. Если с момента своего дебюта знаменитый криптонец боролся за "Правду, справедливость и американский путь", то теперь его цели будут более нейтральные - ”Правда, справедливость и лучшее будущее".</p>
+            <a href="https://www.kinonews.ru/news_103061/" class="btn btn-success pull-right">Читать подробнее</a>
+            <div class="margin-8 clear"></div>
+        </div>
+        <div class="col-sm-3 col-sm-pull-9"> <!-- left block -->
+          <div class="panel panel-info" >
+            <div class="panel-heading">
+              <div class="sidebar-header">search</div>
+            </div>
+              <div class="panel-body">
+                <form role="search">
+                  <div class="form-group">
+                    <div class="input-group">
+                      <input type="search" class="form-control input-lg" placeholder="ваш запрос">
+                      <div class="input-group-btn">
+                        <button class="btn btn-default btn-lg" type="submit"><i class="glyphicon glyphicon-search"></i>
+                        </button>
+                      </div>
+                     </div>
+                  </div>
+                </form>
+              </div>
+          </div>
+          <div class="panel panel-info" >
+            <div class="panel-heading">
+              <div class="sidebar-header">Вход</div>
+            </div>
+            <div class="panel-body">
+              <form role="form">
+                <div class="form-group">
+                  <input type="text" class="form-control input-lg" placeholder="login">
+                </div>
+                <div class="form-group">
+                  <input type="password"  class="form-control input-lg" placeholder="password">
+                </div>
+                <button type="submit" class="btn btn-primary pull-right">Вход</button>
+              </form>
+            </div>
+          </div>
+          <div class="panel panel-info" >
+            <div class="panel-heading">
+              <div class="sidebar-header">Новости</div>
+            </div>
+            <div class="panel-body news_text">
+              <time class="news_date" datetime="2021-10-17">17.10.2021</time>
+              <p>Супермен перестанет сражаться за американские ценности</p>
+              <time class="news_date" datetime="2021-10-19">19.10.2021</time>
+              <p>Глава студии Marvel объяснил массовое изменение прокатных графиков</p>
+            </div>
+          </div>
+           <div class="panel panel-info" >
+            <div class="panel-heading">
+              <div class="sidebar-header">Рейтинг фильмов</div>
+            </div>
+            <div class="panel-body">
+              <ul class="list-group">
+                <li class="list-group-item list-group-warning">
+                  <span class="badge">9.43</span>
+                  <a href="#">Властелин колец 3: Возвращение Короля </a>
+                </li>
+                <li class="list-group-item list-group-warning">
+                  <span class="badge">9.40</span>
+                  <a href="#">Терминатор 2: Судный день</a>
+                </li>
+                <li class="list-group-item list-group-warning">
+                  <span class="badge">9.38</span>
+                  <a href="#"> Побег из Шоушенка</a>
+                </li>
+                <li class="list-group-item list-group-warning">
+                  <span class="badge">9.37</span>
+                  <a href="#">Форрест Гамп</a>
+                </li><li class="list-group-item list-group-warning">
+                  <span class="badge">9.36</span>
+                  <a href="#">Властелин колец 2: Две крепости </a>
+                </li>
+                <li class="list-group-item list-group-warning">
+                  <span class="badge">9.29</span>
+                  <a href="#">Властелин колец:Братство кольца</a>
+                </li>
+              </ul>
 
+            </div>
+          </div>
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clear"></div>
+ </div>
+<footer>
+  <div class="container">
+    <p class="text-center"><a href="http://sunnysite.site">SUNNYSITE.site</a></p>
+  </div>
+</footer>
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
