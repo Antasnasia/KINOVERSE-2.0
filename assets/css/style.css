@@ -60,6 +60,7 @@ text-decoration: none;
 }
 .films_block {
 	text-align: center;
+	margin-top: 3%;
 }
 .films_block img {
 		margin-bottom: 5%;
@@ -72,7 +73,7 @@ text-decoration: none;
 .film_label {
 	padding: 2%;
 	margin-bottom: 4%;
-
+	font-weight: bold;
 }
 
 .margin-8 {
@@ -111,15 +112,28 @@ border-color: transparent;
 	color: black;
 	margin-bottom: 5px;
 }
-.list-group-warning {
+.list-group-item-warning {
 	font-size: 90%;
-	background-color: #f7f2f2;
+	
 }
 
 .badge {
 	background-color: #000000;
 	margin-left: 25px;
 	margin-bottom: 5px;
+}
+.info_block{
+	font-size: 120%;
+
+}
+.info_block .badge {
+	font-size: 80%;
+}
+.info_block span {
+	margin-right: 3%;
+}
+textarea.form-control {
+	height: 200px;
 }
 
 footer {
@@ -134,4 +148,12 @@ footer a {
 footer a:hover {
 	color: #efefef;
 	text-decoration: none;
+}
+
+.feedback_form .form-group {
+	margin-top: 2%;
+
+}
+.table tbody>tr>td.vert-align {
+	vertical-align: middle;
 }
